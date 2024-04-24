@@ -1,0 +1,56 @@
+
+.nav{
+  color: rgb(149, 10, 138);
+  padding: 0 11px;
+  font-family:cursive;
+}
+.nav:hover{
+  border-bottom: 1px solid rgb(243, 36, 36);
+  color: rgb(202, 36, 243);
+  transition: 590ms ease-in-out all;
+}
+nav{
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  display: flex;
+} 
+
+.pink {
+  color: deeppink;
+}
+#perple {
+  color: blueviolet;
+  border: 5px double  red;
+  width: 180px;
+
+}
+#img{
+  margin: auto;
+  width: 67%;
+  border: 8px solid blueviolet;
+  padding: 10px;
+}
+
+
+article > p {
+  font-weight: bold;
+  background-color: #ef6099;
+  color: #100f0f;
+  padding: .5em;
+  width: 155px;
+}
+.italic {
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#button {
+  background-color: #ef6099;
+  border: 2px solid;
+  border-radius: 50px 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

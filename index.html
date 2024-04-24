@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pizza hut</title>
+    <link rel="stylesheet" href="/index.css">
 </head>
 <body>
     <nav>
-       <a href="#HOME">HOME</a> |
+       <a class="nav" href="#HOME">HOME</a> |
 
-        <a href="#ABOUT">ABOUT</a>
-        <a href="#WORK">WORK</a>
-        <a href="#RESUME">RESUME</a>
-        <a href="#CONTACT">CONTACT</a>
+        <a class="nav" href="#ABOUT">ABOUT</a>
+        <a class="nav" href="#WORK">WORK</a>
+        <a class="nav" href="#RESUME">RESUME</a>
+        <a class="nav" href="#CONTACT">CONTACT</a>
     </nav>
         
            
@@ -22,8 +23,9 @@
        <p>
           Pizza Hut is the world's largest pizza chain, founded in 1958 in Wichita, Kansas by brothers Dan and Frank Carney. It has over 16,000 locations worldwide and offers Italian-American cuisine like pizza and pasta. Pizza Hut has several restaurant formats including dine-in, delivery/carry-out, and hybrid locations. It also operates express locations and has introduced an upscale "Bistro" concept menu. Pizza Hut is now a subsidiary of Yum! Brands, one of the largest restaurant companies in the world
        </p>
+       <div id="img">
 <img src="https://www.criptonoticias.com/wp-content/uploads/2020/11/pagos-bitcion-pizza-hut-venezuela.jpg"/>
-       
+</div>
       </section> 
        
       
@@ -38,7 +40,7 @@
       </head>
       <body>
       
-      <h1>specialty pizza & prices </h1>
+      <h1 class="pink">SPECIALTY PIZZA & PRICES </h1>
       
       <table>
         <tr>
@@ -78,7 +80,7 @@
       <section >
           <a name="RESUME"></a> 
           
-          <a href="https://youtu.be/9adQitb3Y4c?si=oArVzM2hhJElWgHZ"><h1>LET'S TAKE A LOOK ON THIS VIDEO</h1></a>
+          <a href="https://youtu.be/9adQitb3Y4c?si=oArVzM2hhJElWgHZ"><h1 class="pink">LET'S TAKE A LOOK ON THIS VIDEO</h1></a>
           </section> 
 
       
@@ -89,19 +91,41 @@
 
         <a name="CONTACT"></a> 
         
-        <h1>CONTACT US</h1>
-<h3>TEL: +21670555444 </h3>
-  <h3>7/7 24/24H</h3>  
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br><br>
-  <BUTTON>RESERVE</BUTTON>
+        <h1 id="perple"> CONTACT US</h1>
+<h3 class="italic">TEL: +21670555444 </h3>
+  <h3 class="italic">7/7 24/24H</h3>  
+
+  
+
+    
+    <p><h1 class="pink">CLICK ON THE BUTTON TO RESERVE.YOU ARE WELCOME</h1></p>
+
+
+
+<article>
+  <form action="/action_page.php"></form>
+  <p><label for="fname">First name:</label><br></p>
+<input type="text" id="fname" name="fname" value=""><br>
+    <p> <label for="lname">Last name:</label><br></p>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+  </article>
+
+
+
+
+  <button id="button" onclick="myalert()">
+    reserve
+</button>
+
+<script>
+    function myalert() {
+        alert("thanks for reservation ");
+    }
+</script>
   
 </form> 
 
-<p>CLICK ON THE BUTTON TO RESERVE.YOU ARE WELCOME</p>
+
         </section> 
 
     
