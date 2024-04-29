@@ -29,8 +29,15 @@ nav{
   width: 67%;
   border: 8px solid blueviolet;
   padding: 10px;
-}
+height: auto;
 
+}
+@media only screen and (max-width: 100px) {
+  .img1{
+    width: 100%;
+    height: auto;
+
+}
 
 article > p {
   font-weight: bold;
@@ -43,14 +50,15 @@ article > p {
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#button {
+#btn1{
   background-color: #ef6099;
   border: 2px solid;
-  border-radius: 50px 20px;
-  color: white;
+ color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 50px 20px;
+}
 }
