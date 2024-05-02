@@ -1,0 +1,197 @@
+#LOGO {
+    color: rgb(94, 9, 213);
+
+}
+
+
+.nav {
+  float: left;
+  display: block;
+  padding-left: 15%;
+padding-right: 2%;
+background-color: #f4e3e857;
+    color: rgb(244, 65, 118);    
+  
+    float: left;
+   
+    width: 60%;
+    padding: 0 33px;
+   
+      width auto;
+      float: left;
+}
+
+.nav:hover {
+  border-bottom: 1px solid rgb(243, 36, 36);
+  color: rgb(202, 36, 243);
+  transition: 590ms ease-in-out all;
+}
+
+nav {
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  display:flex
+   
+}
+.dropdown1 {
+    position: relative;
+  display: inline-block;
+  
+}
+.dropdown-content {
+  display:flex;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+.img1 {
+    width: 50%;
+    height: 50%;
+    padding-left: 20%;
+}
+#brands {
+    color: rgb(240, 66, 240);
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    display: flex;
+    text-indent: 80px;
+
+    padding-left: 15%;
+    padding-right: 5%; 
+    font-size:1vw
+}
+/* #logobrands {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 110%;
+   
+} */
+#logobrands {
+  display:block;
+  margin: left auto;;
+  margin-right: auto;
+  width: 120%;}
+.main{
+    display: flex;
+}
+.card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+      }
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .card button:hover {
+        opacity: 0.7;
+      }
+
+
+
+
+
+      .dropdown1 {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown1:hover .dropdown-content {
+        display: block;
+      }
+
+      .open-hours {
+        color: rgba(229, 36, 116, 0.951);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .Monday {
+        color: black;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      
+
+ .phone {
+  color: darkblue;
+ }
+.email {
+  color: darkblue;
+}
+.follow {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #aa0404;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #d84d7b;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
